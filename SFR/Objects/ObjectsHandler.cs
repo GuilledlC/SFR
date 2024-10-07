@@ -189,6 +189,9 @@ internal static class ObjectsHandler
             case "NUKETRIGGER":
                 __result = new ObjectNukeTrigger(startParams);
                 return false;
+            case "SHELLNITRO":
+                __result = new ObjectShell(startParams);
+                return false;
         }
 
         return true;
